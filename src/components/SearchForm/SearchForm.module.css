@@ -1,0 +1,49 @@
+.searchForm {
+  margin-top: 65px;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #213547;
+  color: #ffffff;
+
+  border-radius: 8px;
+  padding: 12px;
+ 
+}
+
+.searchInput {
+   border: 1px solid #0c0d0dff;
+  border-radius: 8px;
+  margin-right: 20px;
+  padding: 8px 12px;
+outline: none;
+  min-width: 280px;
+}
+
+.searchInput:focus {
+  border-color: #4f1ae1;    /* інший колір бордера */
+  box-shadow: 0 0 0 3px rgba(79, 26, 225, 0.2);
+}
+
+.searchButton {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #efb1e9ff;
+  color: #213547;
+  font-weight: 600;
+}
+@media (prefers-color-scheme: light) {
+  .searchForm {
+    background-color: #b26fdb;
+    color: #213547;
+  }
+  .searchForm button {
+    background-color: #e46fd7;
+  }
+  .searchForm button:hover {
+    background-color: #4f1ae1;
+  }
+}

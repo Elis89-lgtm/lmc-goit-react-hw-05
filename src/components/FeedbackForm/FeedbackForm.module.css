@@ -1,0 +1,25 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 4px;
+  width: 355px;
+  background-color: rgb(214, 232, 229);
+}
+
+.field {
+  font: inherit;
+  width: 350px;
+  padding: 4px;
+  background-color: rgb(241, 223, 238);
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 8px;
+  width: 100px;
+  background-color: aqua;
+}
+.error {
+  color: rgb(207, 17, 17);
+}
